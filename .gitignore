@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+data/
+
+# Virtual environment
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+*.env
+*.env.*
+# Commit only the reviewed, placeholder-only template at the project root.
+!/.env.example
+.envrc
+
+# Keep downloaded credentials in one of these directories. GCP key exports
+# can have arbitrary names, so filename patterns alone cannot catch every key.
+credentials/
+secrets/
+.secrets/
+.gcloud/
+.config/gcloud/
+application_default_credentials.json
+*credentials*.json
+*service-account*.json
+*service_account*.json
+*serviceaccount*.json
+*.json.key
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ADK runtime files
+.adk/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Personal planning notes; public documentation lives in README.md.
+/ShopAssist_README.md
+/shopassist_runtime_architecture.drawio

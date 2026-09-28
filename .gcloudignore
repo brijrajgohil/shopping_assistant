@@ -1,0 +1,10 @@
+.gcloudignore
+.git
+.gitignore
+#!include:.gitignore
+
+.env
+.env.*
+tests/
+evals/
+ShopAssist_README.md
